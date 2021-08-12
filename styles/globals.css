@@ -14,3 +14,26 @@ a {
 * {
   box-sizing: border-box;
 }
+
+#stage-container {
+  background: #31343A;
+}
+
+#draw-inputs input#submit {
+  padding: 4px;
+  font-size: 14px;
+}
+
+#draw-inputs input {
+  padding: 4px;
+  font-size: 14px;
+}
+
+#draw-inputs label {
+  padding: 16px;
+  font-size: 18px;
+}
+
+#draw-inputs button {
+
+}
