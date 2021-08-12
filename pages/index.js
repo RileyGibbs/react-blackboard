@@ -18,7 +18,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by hitting "Draw" or by drawing on the blackboard below.
+          Get started by hitting the Draw button or by drawing on the blackboard below.
         </p>
 
         <DrawCanvasSection />

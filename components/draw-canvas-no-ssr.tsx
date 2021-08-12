@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 
 // Need this to use Kanva
-const NoSSRComponent = dynamic(() => import("./draw-canvas.tsx"), {
+const NoSSRComponent = dynamic(() => import("./draw-canvas"), {
   ssr: false,
 });
 

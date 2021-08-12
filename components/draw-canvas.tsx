@@ -155,11 +155,11 @@ export default function DrawCanvas() {
       <form onSubmit={handleSubmit}>
         <label>
           Height:
-          <input type="number" value={height} onChange={(e) => setHeight(Math.abs(e.target.value))}/>
+          <input type="number" value={height} onChange={(e) => setHeight(Math.abs(parseInt(e.target.value)))}/>
         </label>
         <label>
           Width:
-          <input type="number" value={width} onChange={(e) => setWidth(Math.abs(e.target.value))}/>
+          <input type="number" value={width} onChange={(e) => setWidth(Math.abs(parseInt(e.target.value)))}/>
         </label>
         <input id="submit" type="submit" value="Draw"/>
         <button type="reset" onClick={handleReset}>
